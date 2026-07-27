@@ -1,4 +1,6 @@
-🚀 Como Funciona na Prática (Linha de Comando e R)1.Alinhamento com HISAT2:Terminal / Linux.Mapeie suas sequências de RNA (reads) contra o genoma de referência previamente indexado:
+# 🚀 Pipeline Clássico de RNA-seq
+
+##1.Alinhamento com HISAT2:Terminal / Linux.Mapeie suas sequências de RNA (reads) contra o genoma de referência previamente indexado:
 
 Bash# Mapeamento de reads paired-end e conversão direta para BAM ordenado
 hisat2 -x /path/to/genome_index \
