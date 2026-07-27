@@ -49,7 +49,11 @@ res <- results(dds)
 genes_sig <- subset(res, padj < 0.05 & abs(log2FoldChange) > 1)
 ```
 
-# Dica de ouro: O DESeq2 espera receber contagens brutas (raw counts), e não valores normalizados como RPKM/TPM. O próprio pacote calcula internamente os fatores de normalização para corrigir variações na profundidade do sequenciamento.
+Dica: O DESeq2 espera receber contagens brutas (raw counts), e não valores normalizados como RPKM/TPM. O próprio pacote calcula internamente os fatores de normalização para corrigir variações na profundidade do sequenciamento.
 
 
+
+Referências:
+
+Siva Chudalayandi. RNA-Seq data Analysis. Disponível em: https://bioinformaticsworkbook.org/dataAnalysis/RNA-Seq/RNA-SeqIntro/RNAseq-using-a-genome.html#gsc.tab=0
 
